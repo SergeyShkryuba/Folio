@@ -227,6 +227,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.info {
+    margin: 0 0 80px 0;
+}
 .info__card {
     display: flex;
     background: #181818;
@@ -271,4 +274,22 @@ body {
     font-size: 16px;
     line-height: 119%;
     color: #fff;
+}
+.info__link::after {
+    content: '';
+    background: url(../images/team/);
+}
+.info__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info__button_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 221px;
+    height: 77px;
+    color: #fff;
+    border: 2px solid #fff;
 }
