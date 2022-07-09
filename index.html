@@ -105,10 +105,23 @@
         </section>
         <div class="contact container">
             <h2 class="head__title">Contact</h2>
-            <form action="">
-                <input type="text">
-                <input type="email">
-                <input type="textarea">
+            <form action="#" class="contact__form message">
+                <div class="message__name">
+                    <label for="message__name_item">Name</label>
+                    <input type="text" class="message__name_item" placeholder="John Doe" required>
+                </div>
+                <div class="message__mail">
+                    <label for="message__mail_item">Email</label>
+                    <input type="text" class="message__mail_item" placeholder="john@mail.com" required>
+                </div>
+                <div class="message__explain"></div>
+                    <label for="message__explain_item">Message</label>
+                    <textarea name="complain" class="message__explain_item" placeholder="Enter your message here..." cols="30" rows="8"></textarea>
+                    <input type="submit" class="message__button_item" value="Send">
+                </div>
+                <div class="message__button">
+                    
+                </div> 
             </form>
         </div>
     </div>
