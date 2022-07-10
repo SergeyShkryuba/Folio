@@ -352,6 +352,7 @@ body {
 .message__explain {
     display: flex;
     flex-direction: column;
+    padding: 20px 0 150px;
 }
 .message__explain_item {
     margin-bottom: 115px;
@@ -365,10 +366,24 @@ body {
     border-bottom: 2px solid #fff;
 }
 .message__button {
-    padding: 70px 0 50px;
-}
-.message__button_item {
     width: 188px;
     height: 72px;
     font-size: 39px;
+}
+.footer {
+    padding: 30px 10px 50px;
+    text-align: center;
+}
+.footer__text {
+    margin: 0 0 30px;
+    font-size: 22px;
+    line-height: 123%;
+    font-weight: 600;
+}
+.footer__item_link {
+    padding: 5px 40px;
+    font-size: 22px;
+    line-height: 123%;
+    font-weight: 400;
+    color: #fff;
 }
